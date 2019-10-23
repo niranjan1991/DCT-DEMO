@@ -1,0 +1,147 @@
+.p-l-0{
+    padding-left: 0px;
+}
+.p-r-0{
+    padding-right: 8px;
+}
+.pl-5{
+    padding: 0px;
+    padding-left: 5px;
+}
+.nopadding{
+    padding: 0px;
+} 
+.events-btn-position.form-control{
+    width: 177px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    color: #2B62CA;
+    padding-left: 0px;
+    text-align: left;
+    margin-left: 0px;
+    text-transform:uppercase;
+    margin-top: 8px;
+}
+.Calender mat-card .left-content{
+    color: #1D232F;		font-size: 40px;	line-height: 25px;  padding: 0px;
+}
+.Calender mat-card .middle-panel{
+    color: #1D232F;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 17px;
+    padding-top: 32px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.icon-panel {
+    padding-top: 30px
+}
+.Calender mat-card .icon-panel span{
+    margin-right: 15px;
+    cursor: pointer;
+    outline: none;
+}
+.Calender mat-card .right-content{
+    color: #2B62CA;
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 25px;
+    cursor: pointer;
+    padding-bottom: 15px;
+    outline: none;
+}
+.Calender mat-card .list-id{
+    color: #1D232F;
+    font-size: 20px;
+    padding-top: 36px;
+    padding-bottom: 15px;
+}
+.Calender mat-card .upper-text{
+    color: #1D232F;		font-size: 16px;  
+}
+.mat-card{
+    padding: 30px 24px 30px 25px;
+    margin-bottom: 15px;
+    box-shadow: 0 6px 24px 0 #E2E9F7;
+    border-radius: 8px;
+} 
+.icon-panel span{
+    margin-right: 21px;
+}
+.icon-panel span img{
+    height: 26px;
+}
+.ft-18{
+    font-size: 18px;
+    color: #1D232F;
+}
+.ft-sz{
+    font-size: 48px !important;
+    margin-top: 8px;
+}
+.mr-tp-39{
+    margin-top: 34px;
+}
+.header-below-content .mt-title{
+    margin-bottom: 15px;
+    line-height: 21px;
+    margin-top: 13px;
+}
+.header-below-content{
+    padding-top: 17px;
+}
+.heading-cal{
+    margin-bottom: 24px;
+}
+.mrtp{
+    margin-top: 24px;
+    margin-bottom: 7px;
+}
+.mtp-15 {
+    margin-top: 22px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.border-wrap{
+    padding-right: 34px;
+}
+.dailog-form-wrap{
+    padding-left: 30px;
+}
+.flex-display{
+    display: flex;
+}
+.br-bottom{
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 25px;
+     display: none;
+}
+@media only screen and (max-width: 800px) {
+    .mat-tab-group{
+        width: 100%;
+    }
+    .Calender{
+        padding-top: 160px;
+    }
+    .Calender mat-card .right-content{
+       padding-left: 0px;
+    }
+    .Calender mat-card .middle-panel{
+       text-align: left;
+       padding-left: 0px;
+    }
+    .icon-panel {
+        padding-left: 0px;
+        text-align: left;
+    }
+    .Calender mat-card .left-content{
+        border-right: 0px;
+    }
+    .events-btn-position.form-control{
+        margin-top: 65px;
+    }
+}
+

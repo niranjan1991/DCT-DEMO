@@ -1,0 +1,4 @@
+<!-- <button class="btn btn-default" (click)="loadevents()">Show Events</button> -->
+<div *ngIf="calendarOptions">
+  <ng-fullcalendar #ucCalendar [options]="calendarOptions" [(eventsModel)]="events"></ng-fullcalendar>
+</div>

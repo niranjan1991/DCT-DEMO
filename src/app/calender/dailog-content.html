@@ -1,0 +1,145 @@
+<mat-dialog-content>
+  <div class="row">
+    <div class="col-md-12 dailog-wrapper">
+      <p class="mb-15">
+        <b> Select the dates you will be unavailable</b>
+      </p>
+      <div class="clearfix"></div>
+      <hr class="custom-hr">
+      <div class="clearfix"></div>
+      <div class="row flex-display">
+        <div class="col-md-6 border-wrap">
+          <div class="row">
+            <p class="heading-cal">Manually Select on Calendar</p>
+            <div class="col-md-6">
+              <app-view-calender></app-view-calender>
+            </div>
+
+            <div class="col-md-6">
+              <app-view-calender></app-view-calender>
+            </div>
+            <div class="clearfix"></div>
+
+            <p class="mrtp clr-pop">WEDNESDAY JAN. 9 NOTES</p>
+            <p>I have
+              OCT a personal event planned and I won’t be able to make<br>
+              any events that</p>
+              <div class="clearfix"></div>
+              <p class="br-bottom"></p>
+              <div class="clearfix"></div>
+          </div>
+        </div> <!-- Partion calender -->
+
+        <div class="col-md-6 dailog-form-wrap">
+          <p class="heading-cal">Select Reoccuring Days</p>
+          <div class="clearfix"></div>
+          <div class="row">
+            <div class="col-md-12 nopadding">
+              <div class="col-md-3 mtp-15">
+                <mat-radio-group>
+                  <mat-radio-button value="1" checked="true">Every</mat-radio-button>
+                </mat-radio-group>
+              </div>
+              <div class="col-md-5 p-l-0">
+                <mat-form-field>
+                  <mat-select value=Monday>
+                    <mat-option value="Monday">Monday</mat-option>
+                    <mat-option value="tuesday">Tuesday</mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <hr>
+            <div class="clearfix"></div>
+
+            <div class="col-md-12 nopadding">
+              <div class="col-md-3 mtp-15">
+                <mat-radio-group>
+                  <mat-radio-button value="2">The</mat-radio-button>
+                </mat-radio-group>
+              </div>
+              <div class="col-md-3 p-l-0 p-r-0">
+                <mat-form-field>
+                  <mat-select value=1st>
+                    <mat-option value="1st">1st</mat-option>
+                    <mat-option value="2nd">2nd</mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </div>
+
+              <div class="col-md-3 p-l-0 p-r-0">
+                <mat-form-field>
+                  <mat-select value=Monday>
+                    <mat-option value="Monday">Monday</mat-option>
+                    <mat-option value="tuesday">Tuesday</mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </div>
+              <div class="col-md-1 mrtp pl-5">
+                Of
+              </div>
+              <div class="col-md-2 p-l-0 p-r-0">
+                <mat-form-field>
+                  <mat-select value=1>
+                    <mat-option value="1">1</mat-option>
+                    <mat-option value="2">2</mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <hr>
+            <div class="clearfix"></div>
+
+            <div class="col-md-12 nopadding">
+              <div class="col-md-3 mtp-15">
+                <mat-radio-group>
+                  <mat-radio-button value="3">The</mat-radio-button>
+                </mat-radio-group>
+              </div>
+              <div class="col-md-3 p-l-0 p-r-0">
+                <mat-form-field>
+                  <mat-select value=1st>
+                    <mat-option value="1st">1st</mat-option>
+                    <mat-option value="2nd">2nd</mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </div>
+              <div class="col-md-1 mrtp pl-5">
+                Of
+              </div>
+              <div class="col-md-5 p-l-0">
+                <mat-form-field>
+                  <mat-select value=1>
+                    <mat-option value="1">1</mat-option>
+                    <mat-option value="2">1</mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <hr>
+            <div class="clearfix"></div>
+            <div class="col-md-12">
+              <p></p>
+              <p class="clr-pop">NOTES</p>
+              <p>I have
+                OCT a personal event planned and I won’t be able to make
+                any events that</p>
+                <div class="clearfix"></div>
+                <p class="br-bottom"></p>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="col-md-12 text-center btn-wrap">
+        <button mat-button class="btn btn-cancel" mat-dialog-close>CANCEL</button>
+        <button mat-button [mat-dialog-close]="true" class="btn btn-primary" cdkFocusInitial>SAVE</button>
+      </div>
+    </div>
+  </div>
+</mat-dialog-content>

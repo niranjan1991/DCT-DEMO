@@ -1,0 +1,241 @@
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+/* You can add global styles to this file, and also import other style files */
+body {
+	background-color: #F7FAFF;
+}
+.logo-section {
+	padding: 0px;
+	background: linear-gradient(317.31deg, #1C447F 0%, #32BDE7 100%);
+	height: 132px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top:0px;
+	z-index: 1;
+	width: 135px;
+}
+.sidebar-nav {
+	height: 100%;
+	background-color: #2b62ca;
+	left: 0px;
+	bottom: 0px;
+	width: 135px;
+}
+.sidebar-nav:before {
+	content: "";
+	width: 135px;
+	background-color: #2b62ca;
+	height: 100%;
+	position: fixed;
+}
+.glyphicon.glyphicon-plus {
+	font-size: 35px;
+}
+.glyphicon.glyphicon-map-marker {
+	font-size: 35px;
+}
+.glyphicon.glyphicon-stats {
+	font-size: 35px;
+}
+.glyphicon.glyphicon-list {
+	font-size: 35px;
+}
+.nopadding.sticky-container {
+	height: auto;
+	background: #2B62CA;
+}
+.sticky-container {
+	position: absolute;
+	top: 0px;
+	height: 100%;
+	background: #2B62CA;
+	z-index: 9999;
+	width: 135px;
+	overflow: -moz-scrollbars-none;
+	-ms-overflow-style: none;
+	&::-webkit-scrollbar {
+		width: 0 !important;
+	}
+}
+.sticky-nav {
+	position: fixed;
+}
+.nopadding {
+	padding: 0px;
+}
+.navbar-nav {
+	>li {
+		float: none;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+	}
+}
+.footer-wrapper {
+	margin-top: 500px;
+	background-color: green;
+}
+.header-wrapper {
+	background-color: green;
+}
+.navbar-default {
+	.navbar-nav {
+		>li {
+      background-color: #2b62ca;
+      height: 135px;
+      border-bottom: 1px solid rgba(255,255,255,.2);
+			>a {
+				color: #fff;
+				padding: 10px 0;
+				text-align: center;
+				width: 135px;
+				outline: none;
+				position:static;
+				.child-wrapper {
+					span {
+						font-weight:bold;
+					}
+				}
+			}
+      &:hover {
+        background-color: #70CDFF;
+        opacity: 1;
+        rect, use, path {
+					stroke: #1B3D7D !important;
+					// fill: #1B3D7D !important;
+				}
+				.speak-svg .st1 {
+					stroke: #1B3D7D !important;
+				}
+        a {
+          
+          .child-wrapper {
+            opacity: 1;
+            span {
+							color: #1B3D7D;
+							
+            }
+          }
+          
+        }
+      }
+		}
+	}
+}
+.parent-wrapper {
+	width: 100%;
+}
+.child-wrapper {
+	vertical-align: middle;
+	height: 100%;
+	width: 100%;
+	// display: table-cell;
+	text-align: center;
+	opacity: .5;
+}
+.router-link-active {
+	// border-right: 4px solid skyblue !important;
+	opacity: 1;
+	.parent-wrapper {
+		position:relative;
+		&:after {
+			content: "";
+			position: absolute;
+			width: 5px;
+			border-radius: 10px;
+			height: 100%;
+			right:0px;
+				border-radius: 2.5px 0 0 2.5px;
+				background-color: #56C4FF;
+		top:0px;
+		}
+	}
+
+	.child-wrapper {
+		opacity: 1 !important;
+	}
+
+}
+.navbar {
+	border-radius: 0px;
+	border: none;
+}
+.navbar.navbar-default {
+	background-color: none !important;
+}
+.nav.navbar-nav {
+	li {
+		img {
+			margin: auto auto 10px;
+			max-width: 36px;
+			max-height: 36px;
+		}
+		.ico {
+			 svg {
+				margin: auto auto 10px;
+			max-width: 36px;
+			max-height: 100%;
+			 }
+		}
+	}
+}
+.nav-pad {
+	opacity: 0.5;
+	color: #FFFFFF;
+	font-size: 11px;
+	letter-spacing: 1px;
+	line-height: 13px;
+	text-align: center;
+}
+.custom-logo {
+	width: 85%;
+	text-align: center;
+	margin: auto;
+	padding: 42px 0px;
+}
+.main-container {
+	background: #eff3f9;
+	// padding-left: 60px;
+	// padding-right: 60px;
+}
+.pd-nv-0 {
+	padding: 0px;
+}
+.nav-pd-wd {
+	padding: 0px;
+	width: 100%;
+	padding-top: 132px;
+}
+.data-container {
+  padding-left: 135px;
+  padding-right: 0px;
+}
+.no-overflow {
+	overflow-y: unset !important;
+}
+.has-submenu {
+	a {
+		&:hover {
+			background: #70CDFF !important;
+			color: #1B3D7D !important;
+			font-weight: var(--font-bold);
+			.nav-pad {
+				color: #1B3D7D;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 800px) {
+	.sticky-container {
+		// position: relative;
+	}
+	.main-container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.custom-hide {
+		display: none;
+	}
+}

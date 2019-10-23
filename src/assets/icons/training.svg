@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>ico-training</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="2" width="36" height="22" rx="2"></rect>
+    </defs>
+    <g id="ico-training" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <g id="Rectangle">
+                <use fill-opacity="0.200067935" fill="#FFFFFF" fill-rule="evenodd" style="mix-blend-mode: overlay;" xlink:href="#path-1"></use>
+                <rect stroke="#FFFFFF" stroke-width="2" stroke-linejoin="square" x="1" y="3" width="34" height="20" rx="2"></rect>
+            </g>
+            <rect id="Rectangle" fill="#FFFFFF" x="17" y="0" width="2" height="4" rx="1"></rect>
+            <path d="M18.3139042,22.1905685 C18.34103,22.1691839 18.3697992,22.1492608 18.4001665,22.1309816 C18.4151004,22.1219923 18.4303151,22.1134781 18.4457878,22.1054515 C18.8849647,21.8776271 19.4255844,22.0302837 19.6807361,22.4541681 L26.5092541,33.7984085 C26.7445063,34.1892338 26.6183894,34.69677 26.2275641,34.9320222 C26.2126301,34.9410115 26.1974154,34.9495258 26.1819427,34.9575523 C25.7427659,35.1853767 25.2021462,35.0327201 24.9469945,34.6088358 L18.313867,23.5891983 L11.6807428,34.6088212 C11.4255908,35.0327058 10.8849706,35.1853623 10.4457935,34.9575375 C10.040868,34.747481 9.88289561,34.2489395 10.0929522,33.8440141 C10.1009787,33.8285414 10.109493,33.8133267 10.1184823,33.7983928 L16.9469878,22.4541826 C17.2021398,22.0302981 17.74276,21.8776415 18.1819371,22.1054663 C18.2293813,22.1300781 18.2734353,22.1586504 18.3139042,22.1905685 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <rect id="Rectangle" fill="#FFFFFF" x="1" y="19" width="34" height="1"></rect>
+            <rect id="Rectangle" stroke="#FFFFFF" x="5.5" y="11.5" width="4" height="8"></rect>
+            <rect id="Rectangle-Copy-2" stroke="#FFFFFF" x="12.5" y="8.5" width="4" height="11"></rect>
+            <rect id="Rectangle-Copy-3" stroke="#FFFFFF" x="19.5" y="14.5" width="4" height="5"></rect>
+            <rect id="Rectangle-Copy-4" stroke="#FFFFFF" x="26.5" y="12.5" width="4" height="7"></rect>
+        </g>
+    </g>
+</svg>

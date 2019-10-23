@@ -1,0 +1,286 @@
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+/* You can add global styles to this file, and also import other style files */
+ body {
+	 background-color: #f7faff;
+}
+.custom-hide {
+	display: block;
+}
+ .logo-section {
+	 padding: 0px;
+	 background: linear-gradient(317.31deg, #1c447f 0%, #32bde7 100%);
+	 height: 132px;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 position: fixed;
+	 top: 0px;
+	 z-index: 1;
+	 width: 135px;
+}
+ .sidebar-nav {
+	 height: 100%;
+	 background-color: #2b62ca;
+	 left: 0px;
+	 bottom: 0px;
+	 width: 135px;
+}
+ .sidebar-nav:before {
+	 content: "";
+	 width: 135px;
+	 background-color: #2b62ca;
+	 height: 100%;
+	 position: fixed;
+}
+ .glyphicon.glyphicon-plus {
+	 font-size: 35px;
+}
+ .glyphicon.glyphicon-map-marker {
+	 font-size: 35px;
+}
+ .glyphicon.glyphicon-stats {
+	 font-size: 35px;
+}
+ .glyphicon.glyphicon-list {
+	 font-size: 35px;
+}
+ .nopadding.sticky-container {
+	 height: auto;
+	 background: #2b62ca;
+}
+ .sticky-container {
+	 position: absolute;
+	 top: 0px;
+	 height: 100%;
+	 background: #2b62ca;
+	 z-index: 999;
+	 width: 135px;
+	 overflow: -moz-scrollbars-none;
+	 -ms-overflow-style: none;
+}
+ .sticky-container::-webkit-scrollbar {
+	 width: 0 !important;
+}
+ .sticky-nav {
+	 position: fixed;
+}
+ .nopadding {
+	 padding: 0px;
+}
+ .navbar-nav > li {
+	 float: none;
+	 width: 100%;
+	 cursor: pointer;
+	 display: flex;
+	 align-items: center;
+}
+ .footer-wrapper {
+	 margin-top: 500px;
+	 background-color: green;
+}
+ .header-wrapper {
+	 background-color: green;
+}
+ .navbar-default .navbar-nav > li {
+	 background-color: #2b62ca;
+	 height: 135px;
+	 border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+ .navbar-default .navbar-nav > li > a {
+	 color: #fff;
+	 padding: 10px 0;
+	 text-align: center;
+	 width: 135px;
+	 outline: none;
+	 position: static;
+}
+ .navbar-default .navbar-nav > li > a .child-wrapper span {
+	 font-weight: bold;
+}
+ .navbar-default .navbar-nav > li:hover {
+	 background-color: #70cdff;
+	 opacity: 1;
+}
+ .navbar-default .navbar-nav > li:hover rect, .navbar-default .navbar-nav > li:hover use, .navbar-default .navbar-nav > li:hover path {
+	 stroke: #1b3d7d !important;
+}
+ .navbar-default .navbar-nav > li:hover .speak-svg .st1 {
+	 stroke: #1b3d7d !important;
+}
+ .navbar-default .navbar-nav > li:hover a .child-wrapper {
+	 opacity: 1;
+}
+ .navbar-default .navbar-nav > li:hover a .child-wrapper span {
+	 color: #1b3d7d;
+}
+ .parent-wrapper {
+	 width: 100%;
+}
+ .child-wrapper {
+	 vertical-align: middle;
+	 height: 100%;
+	 width: 100%;
+	 text-align: center;
+	 opacity: 0.5;
+}
+ .router-link-active {
+	 opacity: 1;
+}
+ .router-link-active .parent-wrapper {
+	 position: relative;
+}
+ .router-link-active .parent-wrapper:after {
+	 content: "";
+	 position: absolute;
+	 width: 5px;
+	 border-radius: 10px;
+	 height: 100%;
+	 right: 0px;
+	 border-radius: 2.5px 0 0 2.5px;
+	 background-color: #56c4ff;
+	 top: 0px;
+}
+ .router-link-active .child-wrapper {
+	 opacity: 1 !important;
+}
+ .navbar {
+	 border-radius: 0px;
+	 border: none;
+}
+ .navbar.navbar-default {
+	 background-color: none !important;
+}
+ .nav.navbar-nav li img {
+	 margin: auto auto 10px;
+	 max-width: 36px;
+	 max-height: 36px;
+}
+ .nav.navbar-nav li .ico svg {
+	 margin: auto auto 10px;
+	 max-width: 36px;
+	 max-height: 100%;
+}
+ .nav-pad {
+	 opacity: 0.5;
+	 color: #fff;
+	 font-size: 11px;
+	 letter-spacing: 1px;
+	 line-height: 13px;
+	 text-align: center;
+}
+ .custom-logo {
+	 width: 85%;
+	 text-align: center;
+	 margin: auto;
+	 padding: 42px 0px;
+}
+ .main-container {
+	 background: #eff3f9;
+}
+ .pd-nv-0 {
+	 padding: 0px;
+}
+ .nav-pd-wd {
+	 padding: 0px;
+	 width: 100%;
+	 padding-top: 132px;
+}
+ .data-container {
+	 padding-left: 135px;
+	 padding-right: 0px;
+}
+ .no-overflow {
+	 overflow-y: unset !important;
+}
+ .has-submenu a:hover {
+	 background: #70cdff !important;
+	 color: #1b3d7d !important;
+	 font-weight: var(--font-bold);
+}
+ .has-submenu a:hover .nav-pad {
+	 color: #1b3d7d;
+}
+.col-lg-10 {
+    width: 94.33333333% !important;
+}
+.col-lg-offset-1 {
+    margin-left: 2.33333333% !important;
+}
+ @media only screen and (max-width: 800px) {
+	 .main-container {
+		 padding-left: 15px;
+		 padding-right: 15px;
+	}
+	.custom-hide {
+		 display: none;
+	}
+	.sticky-container {
+		position: relative; 
+		width: 100%;
+	}
+	.sidebar-nav {
+		height: auto; 
+		width: 100%;
+   	}
+	.sidebar-nav:before {  
+		height: auto;
+		position: relative;
+   	}	
+	.data-container{
+		padding-left: 0px;
+	}
+	.logo-section{
+		position: relative;
+		width: 100%;
+	}
+	.custom-logo {
+		 width: auto;
+   }
+   .navbar { 
+		margin-bottom: 0px;
+	}
+	.navbar-nav {
+		margin: 0px;
+	}
+	.nav-pd-wd{ 
+		padding-top: 0px;
+	}
+	.navbar-default .navbar-nav li > a { 
+		width: 100%; 
+	}
+	.main-container{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+@media (max-width: 800px) {
+	.sidebar-navbar-collapse.nopadding{
+	  display: none;
+	}
+	.navbar-header {
+	  float: none;
+	}
+	.navbar-toggle {
+		display: block;
+	} 
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	} 
+	.navbar-nav {
+		float: none!important;
+		margin: 0px;
+	}
+	.navbar-nav>li {
+		float: none;
+	}
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.custom-hide{
+	  display: none;
+	} 
+	
+  }    
+ 

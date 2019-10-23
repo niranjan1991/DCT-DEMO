@@ -1,0 +1,90 @@
+.btn.btn-plain{
+    padding: 5px 10px;
+    border: 1px solid #2B62CA;
+    background-color: white;
+    font-size: 12px;
+    color: #2B62CA;
+    border-radius: 0px;
+}
+.mr-t-7{
+    margin-top: 7px;
+}
+.btn.btn-plain-blue{
+    padding: 5px 10px;
+    border: 1px solid #2B62CA;
+    background-color: #2B62CA;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 0px;
+}
+.btn.btn-plain-upload{
+    /* padding: 20px 10px;  */
+    border: 1px solid #2B62CA;
+    background-color: white;
+    font-size: 18px;
+    color: #2B62CA;
+    border-radius: 0px;
+    height: 77px !important;
+    width: 252px;
+}
+.margin-top-25{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.nopadding{
+    padding: 0px;
+}
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+} 
+.example-full-width {
+    width: 100%;
+}
+.expesnes-wrapper{
+    margin-bottom:50px; 
+}
+.mat-table-wd{
+    width:100%;
+}
+.mat-detail-td{
+    text-align:right;
+    color: #2b62ca;
+}
+.mat-table-top{
+    font-size:14px; color:#2D2A26;
+}
+.mat-cl-left{
+    padding:25px 0px 22px 0px; text-align: left; 
+}
+.mat-cl-right{
+    padding: 25px 3px 22px 0px; text-align: right;
+}
+.upload-receipt{
+    color: rgba(0,0,0,.54); font-size:12px;
+}
+.click-me{
+    margin-right:10px;
+}
+.clr-blue{
+    color: #2B62CA;
+}
+.cancel-btn{
+    margin-right: 16px;
+}
+
+.clr-exp-process{
+    color: #F5A623;
+    font-size: 16px;
+}
+.clr-exp-paid{
+    color: #7ED321;
+    font-size: 16px;
+}
+.header-below-content{
+    padding-top: 25px;
+}
+.a-back{
+    cursor: pointer;
+}

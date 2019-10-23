@@ -1,0 +1,115 @@
+<div class="col-md-1 nopadding sticky-container">
+  <div class="col-md-12 logo-section">
+      <div class="parent-wrapper">
+          <div class="child-wrapper">
+    <img src="assets/img/logo.png" alt="company logo" class="img-responsive custom-logo" />
+    </div>
+    </div>
+  </div><!-- col-md-12-->
+  <div class="clearfix"></div>
+  <div class="col-md-12 nopadding">
+    <div class="sidebar-nav">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="visible-xs navbar-brand">Menu</span>
+        </div>
+        <div class="navbar-collapse sidebar-navbar-collapse nopadding custom-hide">
+          <ul class="nav navbar-nav nav-ul nav-pd-wd" (click)="menuListClose($event)">
+
+            <li>
+              <a [routerLink]="['/dashboard']" [routerLinkActive]="['router-link-active']">
+                <span class="nav-pad">
+                  <div class="parent-wrapper">
+                    <div class="child-wrapper">
+                      <img src="assets/icons/dashboard.svg" (click)="menuListCloseImg($event)"  class="img-responsive" /> 
+                      DASHBOARD
+                    </div>      
+                    </div> 
+                </span>
+              </a>
+            </li>
+
+            <li>
+              <a [routerLink]="['/calender']" [routerLinkActive]="['router-link-active']">
+                <span class="nav-pad">
+                  <div class="parent-wrapper">
+                    <div class="child-wrapper">
+                      <img src="assets/icons/calendar.svg" (click)="menuListCloseImg($event)" class="img-responsive" />
+                      CALENDAR
+                    </div>
+                  </div>
+                </span>
+              </a>
+            </li>
+
+            <li>
+              <a [routerLink]="['/training']" [routerLinkActive]="['router-link-active']">
+                <span class="nav-pad">
+                  <div class="parent-wrapper">
+                    <div class="child-wrapper">
+                      <img src="assets/icons/training.svg" (click)="menuListCloseImg($event)" class="img-responsive" />
+                      TRAINING
+                    </div>
+                  </div>
+
+                </span>
+              </a>
+            </li>
+
+            <li>
+              <a [routerLink]="['/mystory']" [routerLinkActive]="['router-link-active']">
+                <span class="nav-pad">
+                  <div class="parent-wrapper">
+                    <div class="child-wrapper">
+                      <img src="assets/icons/slides.svg" (click)="menuListCloseImg($event)" class="img-responsive" />
+                      MY STORY
+                    </div>
+                  </div>
+                </span>
+              </a>
+            </li>
+
+            <li>
+              <a [routerLink]="['/myprofile']" [routerLinkActive]="['router-link-active']">
+                <span class="nav-pad">
+                  <div class="parent-wrapper">
+                    <div class="child-wrapper">
+                      <img src="assets/icons/profile.svg" (click)="menuListCloseImg($event)" class="img-responsive" />
+                      MY PROFILE
+                    </div>
+                  </div>
+                </span>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div><!-- navbar -->
+    </div><!-- sidebar-nav -->
+  </div><!-- col-md-12 -->
+  <div class="clearfix"></div>
+</div>
+<div class="col-md-1"></div> 
+
+<!-- <div class="col-md-11 nopadding">
+  <app-header></app-header>
+  <div class="col-md-12 main-container">
+    <router-outlet></router-outlet>
+  </div>
+   
+</div> -->
+
+<div class="col-sm-12 nopadding data-container">
+    <app-header></app-header>
+    <div class="col-sm-12 col-lg-10 col-lg-offset-1 main-container">
+        <router-outlet>
+        </router-outlet>
+    </div>
+    <app-footer></app-footer>
+</div>

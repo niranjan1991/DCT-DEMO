@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>ico/slides</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="4" y="0" width="32" height="24" rx="2"></rect>
+        <rect id="path-2" x="0" y="12" width="32" height="24" rx="2"></rect>
+    </defs>
+    <g id="ico/slides" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <g id="Rectangle">
+                <use fill-opacity="0.3" fill="#FFFFFF" fill-rule="evenodd" style="mix-blend-mode: overlay;" xlink:href="#path-1"></use>
+                <rect stroke="#FFFFFF" stroke-width="2" stroke-linejoin="square" x="5" y="1" width="30" height="22" rx="2"></rect>
+            </g>
+            <g id="Rectangle-Copy">
+                <use fill-opacity="0.3" fill="#FFFFFF" fill-rule="evenodd" style="mix-blend-mode: overlay;" xlink:href="#path-2"></use>
+                <rect stroke="#FFFFFF" stroke-width="2" stroke-linejoin="square" x="1" y="13" width="30" height="22" rx="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

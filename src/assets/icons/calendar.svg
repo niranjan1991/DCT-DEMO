@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="38px" viewBox="0 0 36 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>ico/calendar</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="4" y="15" width="10" height="10"></rect>
+        <rect id="path-2" x="4" y="24" width="10" height="10"></rect>
+        <rect id="path-3" x="13" y="15" width="10" height="10"></rect>
+        <rect id="path-4" x="13" y="24" width="10" height="10"></rect>
+        <rect id="path-5" x="22" y="15" width="10" height="10"></rect>
+        <rect id="path-6" x="22" y="24" width="10" height="10"></rect>
+    </defs>
+    <g id="ico/calendar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle" fill-opacity="0.3" fill="#FFFFFF" style="mix-blend-mode: overlay;" x="1" y="3" width="34" height="8"></rect>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2" x="1" y="3" width="34" height="34" rx="2"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="11" width="36" height="1"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="6" y="0" width="1" height="6" rx="0.5"></rect>
+            <rect id="Rectangle-Copy" fill="#FFFFFF" x="29" y="0" width="1" height="6" rx="0.5"></rect>
+            <g id="Rectangle">
+                <use fill-opacity="0.3" fill="#FFFFFF" fill-rule="evenodd" style="mix-blend-mode: overlay;" xlink:href="#path-1"></use>
+                <rect stroke="#FFFFFF" stroke-width="1" stroke-linejoin="square" x="4.5" y="15.5" width="9" height="9"></rect>
+            </g>
+            <g id="Rectangle-Copy-4">
+                <use fill-opacity="0.3" fill="#FFFFFF" fill-rule="evenodd" style="mix-blend-mode: overlay;" xlink:href="#path-2"></use>
+                <rect stroke="#FFFFFF" stroke-width="1" stroke-linejoin="square" x="4.5" y="24.5" width="9" height="9"></rect>
+            </g>
+            <g id="Rectangle-Copy-2">
+                <use fill-opacity="0.3" fill="#FFFFFF" fill-rule="evenodd" style="mix-blend-mode: overlay;" xlink:href="#path-3"></use>
+                <rect stroke="#FFFFFF" stroke-width="1" stroke-linejoin="square" x="13.5" y="15.5" width="9" height="9"></rect>
+            </g>
+            <g id="Rectangle-Copy-5">
+                <use fill-opacity="0.3" fill="#FFFFFF" fill-rule="evenodd" style="mix-blend-mode: overlay;" xlink:href="#path-4"></use>
+                <rect stroke="#FFFFFF" stroke-width="1" stroke-linejoin="square" x="13.5" y="24.5" width="9" height="9"></rect>
+            </g>
+            <g id="Rectangle-Copy-3">
+                <use fill-opacity="0.3" fill="#FFFFFF" fill-rule="evenodd" style="mix-blend-mode: overlay;" xlink:href="#path-5"></use>
+                <rect stroke="#FFFFFF" stroke-width="1" stroke-linejoin="square" x="22.5" y="15.5" width="9" height="9"></rect>
+            </g>
+            <g id="Rectangle-Copy-6">
+                <use fill-opacity="0.3" fill="#FFFFFF" fill-rule="evenodd" style="mix-blend-mode: overlay;" xlink:href="#path-6"></use>
+                <rect stroke="#FFFFFF" stroke-width="1" stroke-linejoin="square" x="22.5" y="24.5" width="9" height="9"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

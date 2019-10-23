@@ -1,0 +1,144 @@
+.my-story-wrapper p{
+    margin-bottom: 10px;
+}
+.my-story-wrapper hr{
+    margin-bottom: 10px;
+    margin-top: 16px;
+    border-top: 1px solid #DBE6F8;
+}
+.my-story-wrapper hr:first-child{
+    margin-bottom: 0px; 
+    border-width: 1.5px;
+}
+
+.my-story-wrapper .download-button{
+    margin-top:25px;
+}
+.my-story-wrapper .download-button-section2{
+    margin-top:0px;
+}
+.mr-tp-32 h4{
+    margin-left: 5px;
+}
+.my-story-wrapper .download-button-section2:last-child{ 
+    margin-bottom: 16px;
+}
+.my-story-section1 mat-card {
+    color: #2B62CA; 
+    font-size: 14px;	
+    font-weight: 500;	
+    line-height: 20px;
+    /* box-shadow: 7px 6px 24px -8px rgba(0, 0, 0, 0.09); */
+    box-shadow: 0 6px 24px 0 #E2E9F7;
+    margin-bottom: 150px;
+    border-radius: 8px;
+} 
+.my-story-section2 mat-card {
+    color: #2B62CA; 
+    font-size: 14px;	
+    font-weight: 500;	
+    line-height: 20px;
+    box-shadow: 0 6px 24px 0 #E2E9F7;
+    border-radius: 8px;
+    /* box-shadow: 7px 6px 24px -8px rgba(0, 0, 0, 0.09); */
+} 
+.my-story-section1 h4{
+    font-size: 20px;
+}
+.my-story-section2 h4{
+    font-size: 20px;
+}
+.nopadding{
+    padding: 0px;
+}
+.my-story-section1-color {
+    color: black;
+    font-size: 14px;
+}
+.my-story-section1-heading {
+    color: #2D2A26;
+    font-size: 17px;
+}
+.download-button {
+    border: 1px solid #2B62CA;  
+    width: 157px; 
+    background-color: #fff; 
+}
+.download-button-section2 {
+    border: 1px solid #2B62CA; 
+    width: 157px; 
+    background-color: #fff;
+}
+.my-story-heading {
+    padding-bottom: 18px;
+}
+.nopadding{
+    padding-left: 0px !important; 
+    padding-right: 0px !important;
+}
+.mr-tp-32{
+    margin-top: 32px;
+}
+.header-below-content{
+    padding-top: 32px;
+}
+.row.custom-row{
+    margin-right: -8px;
+    margin-left: -8px;
+}
+.download-button-bottom{
+    margin-bottom: 26px;
+}
+.row.custom-row .col-md-8{
+    padding-right: 0px;
+}
+.row.custom-row .col-md-4{
+    text-align: right;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .my-story-section2 mat-card {
+        margin-top: 10px;
+    } 
+    
+    .my-story-section1 mat-card {
+        margin-bottom: 18px;
+    } 
+    .nopadding{
+        padding-left: 0px !important; 
+        padding-right: 0px !important;
+    }
+    .download-button {
+        width: 60%;
+    }
+  }
+  @media (min-width: 500px) and (max-width: 800px) {
+    .my-story-section2 mat-card {
+        margin-top: 16px;
+    } 
+    .download-button {
+        width: 40%;
+    }
+    .download-button-section2 {
+        width: 40%;
+    }
+    
+    
+  }
+  @media (min-width:850px) and (max-width: 1024px){
+    .download-button {
+        width: 100%;
+    }
+    .download-button-section2 {
+        width: 60%;
+    }
+  }
+
+@media only screen and (max-width: 800px) {
+  .col-md-12 .mr-tp-32{
+      padding-left: 0px;
+  }
+  .mr-tp-32{
+      margin-left: 0px;
+  }
+}

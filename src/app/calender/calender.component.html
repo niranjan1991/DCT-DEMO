@@ -1,0 +1,136 @@
+<div class="col-md-12 Calender header-below-content">
+  <!-- <p routerLink="/dashboard" style="cursor:pointer; color: blue">
+    Back
+  </p> -->
+
+
+  <mat-tab-group [selectedIndex]="1">
+    
+    <mat-tab label="LIST VIEW">
+      <p class="ft-18 mt-title">
+        OCTOBER
+      </p>
+      <mat-card>
+        <div class="col-md-1 left-content">
+          <span class="upper-text">OCT</span>
+          <div class="clearfix"></div>
+          <div class="ft-sz"> 12 </div>
+        </div>
+        <div class="col-md-2 list-id nopadding">
+          <p> ID: ANMG-2858 </p>
+        </div>
+        <div class="col-md-4 right-content" routerLink="event/1">
+          Understanding the Complexity of Living with Cancer
+        </div>
+        <div class="col-md-2 middle-panel nopadding">
+          <p>1:00 PM - 4:00 PM</p>
+         <p>New York, NY</p>
+        </div>
+        <div class="col-md-3 icon-panel text-right">
+          <span><img src="assets/icons/add.svg"></span>
+          <span routerLink="/calender/event/1"><img src="assets/icons/map.svg"></span>
+          <span><img src="assets/icons/details.svg"></span>
+          <span routerLink="/calender/event/1/expenses/2"><img src="assets/icons/check-mark.svg"></span>
+        </div>
+      </mat-card>
+
+      <mat-card>
+        <div class="col-md-1 left-content">
+          <span class="upper-text">OCT</span>
+          <div class="clearfix"></div>
+          <div class="ft-sz"> 17 </div>
+        </div>
+        <div class="col-md-2 list-id nopadding">
+          <p> ID: ANMG-2858 </p>
+        </div>
+        <div class="col-md-4 right-content" routerLink="event/2">
+          Shared Experiences Roundtable
+        </div>
+        <div class="col-md-2 middle-panel nopadding">
+            <p>3:00 PM - 5:00 PM</p>
+            <p>New York, NY</p>
+        </div>
+        <div class="col-md-3 icon-panel text-right">
+          <span><img src="assets/icons/add.svg"></span>
+          <span routerLink="/calender/event/1"><img src="assets/icons/map.svg"></span>
+          <span><img src="assets/icons/details.svg"></span>
+          <span routerLink="/calender/event/1/expenses/2"><img src="assets/icons/check-mark.svg"></span>
+        </div>
+      </mat-card>
+
+      <mat-card>
+        <div class="col-md-1 left-content">
+          <span class="upper-text">OCT</span>
+          <div class="clearfix"></div>
+          <div class="ft-sz"> 23 </div>
+        </div>
+        <div class="col-md-2 list-id nopadding">
+          <p> ID: ANMG-2858 </p>
+        </div>
+        <div class="col-md-4 right-content" routerLink="event/3">
+          Patient Perspectives of Clinical Trial Enrollment
+        </div>
+        <div class="col-md-2 middle-panel nopadding">
+            <p>1:00 AM - 2:00 PM</p>
+            <p>New York, NY</p>
+        </div>
+        <div class="col-md-3 icon-panel text-right">
+          <span><img src="assets/icons/add.svg"></span>
+          <span routerLink="/calender/event/1"><img src="assets/icons/map.svg"></span>
+          <span><img src="assets/icons/details.svg"></span>
+          <span routerLink="/calender/event/1/expenses/2"><img src="assets/icons/check-mark.svg"></span>
+        </div>
+      </mat-card>
+      <div class="clearfix"></div>
+      <p class="ft-18 mr-tp-39 mt-title">
+          NOVEMBER
+        </p>
+        <mat-card>
+          <div class="col-md-1 left-content">
+            <span class="upper-text">NOV</span>
+            <div class="clearfix"></div>
+            <div class="ft-sz"> 3 </div>
+          </div>
+          <div class="col-md-2 list-id nopadding">
+            <p> ID: ANMG-2858 </p>
+          </div>
+          <div class="col-md-4 right-content" routerLink="event/1">
+            Staying Positive When Treatment isn't as Effective as you Thought
+          </div>
+          <div class="col-md-2 middle-panel nopadding">
+              <p>3:00 PM - 5:00 PM</p>
+              <p>New York, NY</p>
+          </div>
+          <div class="col-md-3 icon-panel text-right">
+          <span><img src="assets/icons/add.svg"></span>
+          <span routerLink="/calender/event/1"><img src="assets/icons/map.svg"></span>
+          <span><img src="assets/icons/details.svg"></span>
+          <span routerLink="/calender/event/1/expenses/2"><img src="assets/icons/check-mark.svg"></span>
+          </div>
+        </mat-card>
+
+    </mat-tab>
+    <mat-tab label="CALENDAR VIEW">
+      <app-view-calender></app-view-calender>
+    </mat-tab> 
+   
+  </mat-tab-group>
+  <mat-form-field class="events-btn-position form-control">
+    <mat-select [(value)]="selected">
+      <mat-option value='upcoming'>
+        UPCOMING EVENTS
+      </mat-option>
+      <mat-option value='events1'>
+        ALL EVENTS
+      </mat-option>
+      <mat-option value='events2'>
+        MY EVENTS
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <!-- <a href="#" class="events-btn-position">UPCOMING EVENTS <span class="caret"></span></a> -->
+  <button mat-button (click)="openDialog()" class="btn-dialog-position">SCHEDULING PREFERENCES</button>
+</div><!-- Master-12 -->
+<div class="clearfix"></div>
+
+<br>

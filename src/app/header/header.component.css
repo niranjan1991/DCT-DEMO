@@ -1,0 +1,56 @@
+.header-text{
+    color: #1D232F;	font-size: 36px;	line-height: 44px;
+    padding-top: 14px;
+}    
+.header-right-text {
+    background-color: white;
+    border: 1px solid #2B62CA;
+    padding: 6px;
+    color: #2B62CA;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+    width: 339px;
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+.header-section{ 
+     height: 132px;
+    display: flex;
+    align-items: center;
+    background-color: #eff3f9;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    border-bottom: 1px solid #DBE6F8;
+}
+.header-section .mat-badge-medium.mat-badge-overlap.mat-badge-before .mat-badge-content{
+    top:0px;
+    left: 0px;
+    background: linear-gradient(317.31deg, #A12BCA 0%, #FF9356 100%);
+    color: #fff;
+}
+.col-lg-10 {
+    width: 92.333333% !important; 
+}
+.col-lg-offset-1 {
+    margin-left: 3.33333333%;
+}
+
+.main-heading{ 
+    color: #2B62CA;	font-size: 14px;	font-weight: 500;	letter-spacing: 1.27px;	line-height: 17px;
+    position: absolute;
+    z-index: 99;
+}
+
+@media only screen and (max-width: 800px) {
+    .header-section  { 
+        float: left;
+        width: 100%;
+        padding: 0px;
+        position: relative;  
+    } 
+}

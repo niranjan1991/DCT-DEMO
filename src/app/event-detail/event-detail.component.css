@@ -1,0 +1,230 @@
+mat-card{
+    margin-bottom: 35px; 
+    /* margin-top: 6px; */
+    box-shadow: 0 6px 24px 0 #E2E9F7 !important;
+    border-radius: 8px;
+}
+.divider{
+    width: 1px;
+    height: 150px;
+    background: #DBE6F8;
+    padding: 0px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto;	 
+}
+.ps-relative{
+    position: relative;
+    padding: 18px 33px 39px 15px;
+}
+.nopadding{
+    padding: 0px;
+}
+.bottom-panel p:first-child{
+    color: #B6B6B6;
+    font-size: 14px;
+    margin-bottom: 3px;
+    line-height: 17px;
+}
+.bottom-panel p{
+    color: #444444;
+    font-size: 20px;
+    margin-bottom: 0px;
+    line-height: 24px;
+}
+.icon-panel{
+    padding-top: 15px;
+}
+.icon-panel span{
+    margin-right: 21px;
+}
+.icon-panel span img{
+    height: 26px;
+}
+.bottom-panel{
+    margin-bottom: 10px;
+}
+.left-content{
+    color: #1D232F;
+    font-size: 40px;
+    line-height: 25px;
+}
+.left-content span{
+    color: #1D232F;
+    font-size: 16px;
+    /* line-height: 19px; */
+    text-align: right;
+    margin-bottom: 10px;
+}
+hr {
+    float: left;
+    width: 100%;
+    margin-bottom: 17px;
+    margin-top: 15px;
+    border-top: 1px solid #DBE6F8;
+}
+.hr-tp{
+    margin-top: 10px !important;
+    margin-bottom: 20px;
+    margin-left: -19px;
+}
+.left-content.m-tp-minus{
+    margin-top:-20px;
+}
+.top-panel .col-md-11.nopadding{
+     padding-top: 10px; 
+    color: #2B62CA;	
+    font-size: 20px;	
+    font-weight: bold;
+    padding-left: 10px;	 
+}
+.left-panel{
+    border-right: 1px solid #DBE6F8;
+    padding-right: 27px; 
+}  
+.left-panel p:first-child,
+.right-panel p:first-child{
+    color: #1D232F;	font-weight: 500; margin-bottom: 7px;    
+}
+.right-panel{
+    padding-left: 24px;
+}
+.text-size{
+    color: #1D232F;	font-size: 18px;	font-weight: 500; margin-bottom: 10px !important; margin-left: 5px;    
+}
+.btn.btn-plain{
+    padding: 5px 10px;    
+    border: 1px solid #2B62CA;
+    background-color: white;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2B62CA;
+    border-radius: 0px;
+    width: 260px;
+}
+.expenses-wrap .btn.btn-plain{
+    text-align: center;
+    /* width: 210px; */
+    padding: 8px;
+    border: 1px solid #2B62CA;
+    background-color: white;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2B62CA;
+    margin-top: 12px;
+    border-radius: 0px;
+    width: 260px;
+}
+.Travelling-wrapper  mat-card .flight-panel{ 
+    color: #1D232F;
+    /* padding-bottom: 23px; */
+}
+
+.Travelling-wrapper  mat-card .flight-panel p{
+    margin-bottom: 2px;
+    font-size: 17px;
+}
+.Travelling-wrapper  mat-card .flight-panel p:first-child{
+    font-size: 14px;
+}
+.Travelling-wrapper  mat-card .flight-panel p:first-child,
+.Travelling-wrapper  mat-card .hotel-panel p:first-child{
+    color: #B6B6B6;
+}
+.ml-minus{
+    /* margin-left: -20px; */
+    font-size: 20px;	font-weight: 300;	line-height: 21px;
+    padding-left: 2px;
+}
+.hotel-panel{
+    padding-left: 0px !important;
+}
+.hotel-panel p{
+    margin-bottom: 12px !important;
+    margin-top: 15px;
+}
+.Travelling-wrapper  mat-card .flight-panel p span{
+    color: #696262;
+}
+.Travelling-wrapper  mat-card .flight-panel p:nth-child(3){
+    margin-bottom: 15px;
+}
+.expenses-wrap{
+    font-size: 14px;
+}
+.padding-top{
+    padding:25px 0px;
+}
+.a-back{
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.ft-sz{
+    font-size: 48px !important;
+    margin-top: 8px;
+    margin-inline-start: -4px;
+}
+.left-content.m-tp-minus{
+    padding-right: 26px;
+}
+.ht-sz{
+    font-size: 18px !important;
+    margin-top: 8px;
+    padding-bottom: 2px;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-18{
+    font-size: 18px;
+    line-height: 22px;
+}
+.color-no{
+    color: #2B62CA;
+    cursor: pointer;
+}
+.mr-top-10{
+    margin-top: 6px;
+}
+.ps-abs-digit{ 
+    margin-left: -10px;
+    margin-right: 15px;
+}
+.ht-sz{
+    display: flex;
+}
+.pad-mat{
+    padding: 16px 25px 21px 16px;
+}
+.pad-mat-third{
+    padding: 25px 13px 20px 11px;
+}
+.pad-mat-last{
+    padding: 16px 9px 16px 15px;
+}
+.header-below-content{
+    padding-top: 25px;
+}
+@media only screen and (max-width: 800px) {
+    .icon-panel{ 
+        text-align: left;
+    }
+    .hotel-panel{
+        padding-left: 15px !important;
+    }
+    .divider{
+        display: none;
+    }
+    .col-md-6.text-right{
+        text-align: left !important;
+    }
+    .Travelling-wrapper mat-card{
+        padding: 30px;
+    }
+    .custom-clearfix{
+        clear: both;
+    }
+
+}
